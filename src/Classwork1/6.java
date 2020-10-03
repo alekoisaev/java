@@ -1,3 +1,5 @@
+package com.Classwork1;
+
 import java.util.Scanner;
 
 class MyClass {

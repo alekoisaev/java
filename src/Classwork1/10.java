@@ -1,3 +1,5 @@
+package com.Classwork1;
+
 import java.util.Arrays;
 
 public class Main {
@@ -8,7 +10,8 @@ public class Main {
 
         Arrays.sort(nums);
 
-        System.out.println("Min: " + nums[0]);
-        System.out.println("Max: " + nums[nums.length - 1]);
+        for(int num: nums) {
+            System.out.println(num);
+        }
     }
 }
