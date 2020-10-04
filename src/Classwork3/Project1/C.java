@@ -38,7 +38,7 @@ public class C {
         if ((m / 10) == 0) {
             sum = c;
         } else {
-            while (m > 10) {
+            while (m > 0) {
                 n = m%10;
                 sum = sum+n;
                 m = m/10;
